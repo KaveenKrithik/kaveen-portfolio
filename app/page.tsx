@@ -230,7 +230,7 @@ export default function Portfolio() {
                   className="object-cover w-full h-full rounded-lg"
                 />
               </div>
-              <p className="text-muted-foreground text-center">DAA E-LAB Completion Certificate 1</p>
+              <p className="text-muted-foreground text-center">DAA E-LAB Completion</p>
             </CardContent>
           </Card>
           <Card className="overflow-hidden border-border bg-card/50 hover:shadow-[0_0_15px_rgba(139,92,246,0.3)] transition-all duration-300">
@@ -242,9 +242,25 @@ export default function Portfolio() {
                   className="object-cover w-full h-full rounded-lg"
                 />
               </div>
-              <p className="text-muted-foreground text-center">DAA E-LAB Completion Certificate 2</p>
+              <p className="text-muted-foreground text-center">DAA E-LAB Completion</p>
             </CardContent>
           </Card>
+        </div>
+      </section>
+
+      {/* Real world DAA Project */}
+      <section className="py-20 px-4 md:px-8 max-w-6xl mx-auto" id="daa-project">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-400">
+          Real world DAA Project
+        </h2>
+        <div className="grid md:grid-cols-1 gap-8">
+          <ProjectCard
+            title="CARGO-MASTER"
+            description="A comprehensive implementation of Knapsack algorithm and data structures, demonstrating practical applications in real-world cargo management. This project showcases efficient problem-solving techniques and optimization strategies."
+            technologies={["Algorithms", "Data Structures", "TypeScript", "Next.js"]}
+            githubUrl="https://github.com/KaveenKrithik/CargoMaster"
+            demoUrl="https://github.com/KaveenKrithik/CargoMaster"
+          />
         </div>
       </section>
 
