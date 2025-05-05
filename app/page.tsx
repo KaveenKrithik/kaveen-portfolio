@@ -215,6 +215,39 @@ export default function Portfolio() {
         </Tabs>
       </section>
 
+      {/* DAA E-LAB COMPLETION */}
+      <section className="py-20 px-4 md:px-8 max-w-6xl mx-auto" id="daa-elab">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-400">
+          DAA E-LAB COMPLETION
+        </h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <Card className="overflow-hidden border-border bg-card/50 hover:shadow-[0_0_15px_rgba(139,92,246,0.3)] transition-all duration-300">
+            <CardContent className="p-6">
+              <div className="aspect-video relative mb-4">
+                <img
+                  src="/comp.png"
+                  alt="DAA E-LAB Completion"
+                  className="object-cover w-full h-full rounded-lg"
+                />
+              </div>
+              <p className="text-muted-foreground text-center">DAA E-LAB Completion Certificate 1</p>
+            </CardContent>
+          </Card>
+          <Card className="overflow-hidden border-border bg-card/50 hover:shadow-[0_0_15px_rgba(139,92,246,0.3)] transition-all duration-300">
+            <CardContent className="p-6">
+              <div className="aspect-video relative mb-4">
+                <img
+                  src="/comp1.png"
+                  alt="DAA E-LAB Completion"
+                  className="object-cover w-full h-full rounded-lg"
+                />
+              </div>
+              <p className="text-muted-foreground text-center">DAA E-LAB Completion Certificate 2</p>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
       {/* Projects */}
       <section
         ref={projectsRef}
